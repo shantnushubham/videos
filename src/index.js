@@ -1,10 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './components/App';
 import * as serviceWorker from './serviceWorker';
-
-const App = () => {
-  return <div>Hello</div>
-}
 
 ReactDOM.render(
   <React.StrictMode>
